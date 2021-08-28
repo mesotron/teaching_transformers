@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "teaching_transformers", "teaching_transformers.pyproj", "{B06CEE8A-ECB8-4F34-9B02-3D8F6964F54E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B06CEE8A-ECB8-4F34-9B02-3D8F6964F54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06CEE8A-ECB8-4F34-9B02-3D8F6964F54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAEDFA08-C88F-4D15-B0F4-9E0575C5C1C6}
+	EndGlobalSection
+EndGlobal

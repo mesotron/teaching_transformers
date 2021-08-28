@@ -4,9 +4,17 @@ dataset; we will use a small portion of this data for our experiments. This
 script essentially preps files that are used as input by 
 elaborate_remainder.py, which creates our final training, test, and 
 validation data.
+
+Note that this relies upon various files from the DeepMind Mathematics
+dataset being present in math_path, in the subdirectories in which it
+expects to see them, in order to run correctly; furthermore, the output was
+separately renamed and truncated to yield the files in data/originals, and
+the output of format_benchmarks.py depends on the random seed. To use 
+exactly the same data that was used in the paper, simply use the files 
+already present in data/originals.
 """
 
-from paths import remainder_path, math_path
+from paths import math_path
 import re
 import random
 import math

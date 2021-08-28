@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b06cee8a-ecb8-4f34-9b02-3d8f6964f54e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>remainder\elaborate_remainder.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="paths.py" />
+    <Compile Include="remainder\elaborate_remainder.py" />
+    <Compile Include="remainder\format_benchmarks.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\formatted\remainder_interpolatedtestset.txt" />
+    <Content Include="data\formatted\remainder_samedisttestset.txt" />
+    <Content Include="data\formatted\remainder_validation.txt" />
+    <Content Include="data\formatted\train\remainder_L+_training.txt" />
+    <Content Include="data\formatted\train\remainder_LN+_training.txt" />
+    <Content Include="data\formatted\train\remainder_training.txt" />
+    <Content Include="data\formatted\train\remainder_W_training.txt" />
+    <Content Include="data\originals\interpolatedtest_500_numbers__div_remainder.txt" />
+    <Content Include="data\originals\samedisttest_500_numbers__div_remainder.txt" />
+    <Content Include="data\originals\training_200_numbers__div_remainder.txt" />
+    <Content Include="data\originals\validation_100_numbers__div_remainder.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="data\formatted" />
+    <Folder Include="data\formatted\train" />
+    <Folder Include="data\formatted-safe\" />
+    <Folder Include="data\originals" />
+    <Folder Include="remainder" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
