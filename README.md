@@ -8,7 +8,7 @@ By way of example, GPT-Neo can be trained to solve the numbers__div_remainder ta
 This task essentially tests the ability to conduct modulo operations with large numbers (i.e., to solve division problems and report the remainders).
 Saxton et al. reported below 40% accuracy on this task when training a Tranformer with 2 million training examples. However, by fine-tuning on an appropriate training dataset,
 the smallest available GPT-Neo model achieves over 80% accuracy. This is achieved merely by adjusting the input data, without altering the learning algorithm in any way.
-See the paper "[Teaching Autoregressive Language Models Complex Tasks By Demonstration](http://www.twonewthings.com/Teaching_Transformers_v2.pdf)" for more information.
+See the paper "[Teaching Autoregressive Language Models Complex Tasks By Demonstration](https://drive.google.com/file/d/1Otu0xU1o0xrm-nQ5zewhjWsvvyRpRSAI/view)" for more information.
 
 This repository contains training, validation, and test data associated with the experiments in the paper, as well as the code for generating it. 
 A Colab notebook for fine-tuning GPT-Neo on the dataset and evaluating the results can be found [here](https://colab.research.google.com/drive/1glgRxBepDVz6Lw2_cnsWbL6xZJXAthY3). The best fine-tuned model from the paper is available [here](https://drive.google.com/drive/folders/1kVCrpN1zrL3KXsyCPAZo10q011U6qjQM?usp=sharing).
