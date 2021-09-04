@@ -2,7 +2,7 @@
 Extract training, validation and test data from the DeepMind Mathematics 
 dataset; we will use a small portion of this data for our experiments. This 
 script essentially preps files that are used as input by 
-elaborate_remainder.py, which creates our final training, test, and 
+demonstrator.py, which creates our final training, test, and 
 validation data.
 
 Note that this relies upon various files from the DeepMind Mathematics
