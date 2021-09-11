@@ -1,12 +1,12 @@
 ## Code to accompany the paper "Teaching Autoregressive Language Models Complex Tasks By Demonstration"
 
-by Gabriel Recchia ([@mesotronium](https://twitter.com/mesotronium)) (glr29 at University of Cambridge's e-mail domain)
+by Gabriel Recchia ([@mesotronium](https://twitter.com/mesotronium), glr29 at University of Cambridge's e-mail domain)
 
 Transformer models are typically trained with large numbers of training examples. 
 However, by fine-tuning a sufficiently large model on appropriately structured step-by-step demonstrations, 
 some tasks that can Transformers can not accomplish well even with very many training examples become possible with a relative handful. 
 
-By way of example, GPT-Neo can be trained to solve the numbers__div_remainder task from the DeepMind Mathematics Dataset with over 80% accuracy. 
+By way of example, [GPT-Neo](https://github.com/EleutherAI/gpt-neo) can be trained to solve the numbers__div_remainder task from the DeepMind Mathematics Dataset with over 80% accuracy. 
 This task essentially tests the ability to conduct modulo operations with large numbers (i.e., to solve division problems and report the remainders).
 [Saxton et al.](https://arxiv.org/pdf/1904.01557.pdf) reported below 40% accuracy on this task when training a Tranformer with 2 million training examples. However, by fine-tuning on an appropriate training dataset,
 the smallest available GPT-Neo model achieves over 80% accuracy. This is achieved merely by adjusting the input data, without altering the learning algorithm in any way.
