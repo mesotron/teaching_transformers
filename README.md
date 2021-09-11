@@ -1,5 +1,7 @@
 ## Code to accompany the paper "Teaching Autoregressive Language Models Complex Tasks By Demonstration"
 
+by Gabriel Recchia ([@mesotronium](https://twitter.com/mesotronium)) (glr29 at University of Cambridge's e-mail domain)
+
 Transformer models are typically trained with large numbers of training examples. 
 However, by fine-tuning a sufficiently large model on appropriately structured step-by-step demonstrations, 
 some tasks that can Transformers can not accomplish well even with very many training examples become possible with a relative handful. 
